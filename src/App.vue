@@ -64,18 +64,26 @@
         <div class="col-3">
           <i class="fa-solid fa-layer-group icon-row"></i>
           <h4>Modular</h4>
+          <p>Composed in a pseudo-Latin language which more or less corresponds.</p>
+          <span>Read more <i class="fa-solid fa-chevron-right arrow-right" ></i></span>
         </div>
         <div class="col-3">
           <i class="fa-brands fa-chromecast icon-row"></i>
           <h4>responsive</h4>
+          <p>Composed in a pseudo-Latin language which more or less corresponds.</p>
+          <span>Read more <i class="fa-solid fa-chevron-right arrow-right"></i></span>
         </div>
         <div class="col-3">
           <i class="fa-solid fa-expand icon-row"></i>
           <h4>Customizable</h4>
+          <p>Composed in a pseudo-Latin language which more or less corresponds.</p>
+          <span>Read more <i class="fa-solid fa-chevron-right arrow-right"></i></span>
         </div>
         <div class="col-3">
           <i class="fa-solid fa-maximize icon-row"></i>
           <h4>Scalable</h4>
+          <p>Composed in a pseudo-Latin language which more or less corresponds.</p>
+          <span>Read more <i class="fa-solid fa-chevron-right arrow-right"></i></span>
         </div>
       </div>
     </div>
@@ -96,11 +104,18 @@
 .left-logo{
   margin-top: 35px;
 }
+span{
+  color: blue;
+}
 
+.arrow-right{
+  color: blue;
+}
 .row{
   display: flex;
   padding: 35px;
   text-align: center;
+  background-color: #f8f9fc;
 }
 
 .icon-row{
@@ -108,7 +123,7 @@
   background-color: #c6c6c6;
   width: 50px;
   height: 40px;
-  
+  color: blue;
   text-align: center;
   margin-top: 50px;
   border-radius: 7px;
@@ -154,7 +169,7 @@ ul{
 .col-3{
   width: 30%;
   height: 300px;
-  border: 2px solid black;
+  border: 2px solid #c6c6c6;
 }
 
 .dev-target{
