@@ -10,7 +10,7 @@
       </div>
       <div class="head-link">
         <ul>
-          <li>HOME<i class="fa-solid fa-check"></i></li>
+          <li>HOME</li>
           <li>LANDING<i class="fa-solid fa-check"></i></li>
           <li>PAGES<i class="fa-solid fa-check"></i></li>
           <li>DOCS<i class="fa-solid fa-check"></i></li>
@@ -27,6 +27,12 @@
     </div>
   </header>
   <main>
+    <div id="development">
+      <div class="col-5"></div>
+      <div class="col-3">
+        <img src="../src/assets/img/about.png" alt="">
+      </div>
+    </div>
     
   </main>
   <footer></footer>
@@ -67,7 +73,24 @@ ul{
 
 .icon-search{
   color: grey;
+ 
   
+}
+  
+#development{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.col-5{
+  width: 50%;
+  border: 2px solid black;
+  height: 300px;
+}
+.col-3{
+  width: 30%;
+  border: 2px solid black;
+  height: 300px;
 }
 
 
