@@ -28,12 +28,36 @@
   </header>
   <main>
     <div id="development">
-      <div class="col-5"></div>
+      <div class="col-5">
+        <div class="dev-target">Development</div>
+        <div><h2> A complete Developer Toolset</h2></div>
+        <p>Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrao4 html page.</p>
+
+        <div class="btn-devolpment">
+          <button type="button" class="btn btn-primary">Get Started</button>
+          <button type="button" class="btn btn-outline-primary">Documentation</button>
+        </div>
+        <p>Current Version v2.6.0</p>
+      </div>
       <div class="col-3">
         <img src="../src/assets/img/about.png" alt="">
       </div>
     </div>
+
+    <div id="container" class="company-img">
+      <img src="./assets/img/amazon.svg" class="comp-img-logo" alt="">
+      <img src="./assets/img/google.svg" class="comp-img-logo" alt="">
+      <img src="./assets/img/lenovo.svg" class="comp-img-logo" alt="">
+      <img src="./assets/img/paypal.svg" class="comp-img-logo" alt="">
+      <img src="./assets/img/shopify.svg" class="comp-img-logo" alt="">
+      <img src="./assets/img/spotify.svg" class="comp-img-logo" alt="">
+    </div>
     
+
+    <div class="container">
+      <h3>Key Features</h3>
+      <p>Start working with Landrick that can provide everything you need to generate <br> awaraness, drive traffic, connect.</p>
+    </div>
   </main>
   <footer></footer>
 </template>
@@ -41,6 +65,9 @@
 
 
 <style>
+
+
+
 .head-logo{
   width: 170px;
 }
@@ -84,14 +111,46 @@ ul{
 }
 .col-5{
   width: 50%;
-  border: 2px solid black;
   height: 300px;
 }
 .col-3{
   width: 30%;
-  border: 2px solid black;
   height: 300px;
 }
 
+.dev-target{
+  color: blue;
+  background-color: #c6c6c6;
+  font-size: 15px;
+  border: 1px solid gray;
+  width: 85px;
+  border-radius: 4px;
+}
+p{
+  color: grey;
+  font-size: 17px;
+  font-weight: bold;
+}
 
+h2{
+  font-size: 55px;
+}
+
+
+.comp-img-logo{
+  width: 90px;
+}
+
+.company-img{
+  margin-top: 250px;
+  background-color: #f8f9fc;
+}
+
+.container{
+  margin-left: 60px;
+}
+
+h3{
+  font-size: 35px;
+}
 </style>
