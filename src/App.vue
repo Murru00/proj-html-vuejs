@@ -20,7 +20,7 @@
        <ul>
         <li class="icon-search"><i class="fa-solid fa-magnifying-glass"></i></li>
         <li class="right-icon"><i class="fa-brands fa-github"></i></li>
-        <li class="right-icon"><i class="fa-solid fa-book-open-reader"></i></li>
+        <li class="right-icon"><i class="fa-brands fa-stack-overflow"></i></li>
         <li class="right-icon"><i class="fa-regular fa-user"></i></li>
        </ul>
       </div>
@@ -58,6 +58,27 @@
       <h3>Key Features</h3>
       <p>Start working with Landrick that can provide everything you need to generate <br> awaraness, drive traffic, connect.</p>
     </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <i class="fa-solid fa-layer-group icon-row"></i>
+          <h4>Modular</h4>
+        </div>
+        <div class="col-3">
+          <i class="fa-brands fa-chromecast icon-row"></i>
+          <h4>responsive</h4>
+        </div>
+        <div class="col-3">
+          <i class="fa-solid fa-expand icon-row"></i>
+          <h4>Customizable</h4>
+        </div>
+        <div class="col-3">
+          <i class="fa-solid fa-maximize icon-row"></i>
+          <h4>Scalable</h4>
+        </div>
+      </div>
+    </div>
   </main>
   <footer></footer>
 </template>
@@ -74,6 +95,23 @@
 
 .left-logo{
   margin-top: 35px;
+}
+
+.row{
+  display: flex;
+  padding: 35px;
+  text-align: center;
+}
+
+.icon-row{
+  font-size: 30px;
+  background-color: #c6c6c6;
+  width: 50px;
+  height: 40px;
+  
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 7px;
 }
 
 ul{
@@ -116,6 +154,7 @@ ul{
 .col-3{
   width: 30%;
   height: 300px;
+  border: 2px solid black;
 }
 
 .dev-target{
@@ -152,5 +191,8 @@ h2{
 
 h3{
   font-size: 35px;
+}
+h4{
+  font-size: 20px;
 }
 </style>
